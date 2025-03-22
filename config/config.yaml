@@ -4,7 +4,7 @@
 data:
   # 原始数据文件路径
   train_file: "data/raw/train.tsv"  # 训练数据文件，TSV格式（标签\t评论文本）
-  stopwords_file: "data/raw/hit_stopwords.txt"  # 停用词文件
+  stopwords_file: "data/raw/stopwords.txt"  # 停用词文件
   word2vec_model: "data/models/word2vec.txt"  # 预训练词向量模型文件
   
   # 数据处理和缓存目录

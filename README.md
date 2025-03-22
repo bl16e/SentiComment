@@ -72,8 +72,7 @@ pip install -r requirements.txt
 
 2. 准备数据：
 - 将训练数据放在 `data/raw/train.tsv`
-- 将测试数据放在 `data/raw/test.tsv`
-- 将停用词表放在 `data/raw/hit_stopwords.txt`
+- 将停用词表放在 `data/raw/stopwords.txt`
 
 1. 修改配置：
 - 根据需要修改 `config/config.yaml` 中的参数

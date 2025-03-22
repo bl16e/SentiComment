@@ -72,12 +72,12 @@ pip install -r requirements.txt
 
 2. Prepare the data:
 - Place training data in `data/raw/train.tsv`
-- Place stopwords file in `data/raw/hit_stopwords.txt`
+- Place stopwords file in `data/raw/stopwords.txt`
 
-3. Modify configuration:
+1. Modify configuration:
 - Adjust parameters in `config/config.yaml` as needed
 
-4. Train the model:
+1. Train the model:
 ```bash
 python src/train.py
 ```
